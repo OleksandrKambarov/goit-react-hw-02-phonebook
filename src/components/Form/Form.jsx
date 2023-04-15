@@ -19,4 +19,5 @@ const ContactList = ({ contacts, delContact }) => {
     </ul>
   );
 };
+
 export default ContactList;
