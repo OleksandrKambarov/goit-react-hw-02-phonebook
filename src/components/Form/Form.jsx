@@ -36,7 +36,7 @@ class Form extends Component {
             value={name}
             placeholder="Enter name"
             pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
-            title="Імя може складатись тільки з букв, апострофа, тире і пробілів. Наприклад: Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan і т. д."
+            title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
             required
             onChange={this.handleChange}
           />
@@ -49,7 +49,7 @@ class Form extends Component {
             value={number}
             placeholder="Enter number"
             pattern="(\+?( |-|\.)?\d{1,2}( |-|\.)?)?(\(?\d{3}\)?|\d{3})( |-|\.)?(\d{3}( |-|\.)?\d{4})"
-            title="Номер телефона повинен складатись з цифр 11-12 може містити пробіли, тире, пузаті дужки і може починатися з +"
+            title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
             required
             onChange={this.handleChange}
           />
