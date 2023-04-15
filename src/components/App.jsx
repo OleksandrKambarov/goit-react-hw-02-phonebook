@@ -3,7 +3,7 @@ import ContactForm from './Form/Form';
 import ContactList from './ContactList/Contactlist';
 import Filter from './Filter/Filter';
 
-import { v4 as uuidv4 } from 'uuid';
+import { nanoid } from 'nanoid';
 
 class App extends Component {
   state = {
@@ -18,7 +18,7 @@ class App extends Component {
 
   handleForm = ({ name, number }) => {
     const newContact = {
-      id: uuidv4(),
+      id: nanoid(),
       name,
       number,
     };
