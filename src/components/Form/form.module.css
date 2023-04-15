@@ -7,7 +7,7 @@
 .form__label {
   display: flex;
   flex-direction: column;
-  color: rgb(175, 203, 239);
+  fill: rgb(0, 39, 90);
 }
 .form__button {
   height: 30px;
