@@ -8,7 +8,7 @@
 .form__label {
   display: flex;
   flex-direction: column;
-  fill: rgb(0, 39, 90);
+  fill: rgb(2, 95, 32);
 }
 .form__button {
   height: 30px;
@@ -17,7 +17,7 @@
   cursor: pointer;
 }
 .form__button:hover {
-  background-color: rgb(16, 93, 93);
+  background-color: rgb(45, 197, 197);
   color: white;
 }
 input {
