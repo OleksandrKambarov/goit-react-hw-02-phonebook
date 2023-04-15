@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Form from './Form';
-import ContactList from './ContactList';
-import Filter from './Filter';
+import ContactForm from './Form/Form';
+import ContactList from './ContactList/Contactlist';
+import Filter from './Filter/Filter';
 
 import { v4 as uuidv4 } from 'uuid';
 
@@ -50,7 +50,7 @@ class App extends Component {
     return (
       <section>
         <h1>Phonebook</h1>
-        <Form onSubmit={this.handleForm} />
+        <ContactForm onSubmit={this.handleForm} />
 
         <h2>Contacts</h2>
         <Filter value={this.state.filter} onChange={this.changeFilter} />

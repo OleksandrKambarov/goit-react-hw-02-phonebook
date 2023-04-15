@@ -1,5 +1,6 @@
 import React from 'react';
-import style from './contactList.module.css';
+import style from './contactlist.module.css';
+
 const ContactList = ({ contacts, delContact }) => {
   return (
     <ul className={style.contactList}>
@@ -18,4 +19,5 @@ const ContactList = ({ contacts, delContact }) => {
     </ul>
   );
 };
+
 export default ContactList;

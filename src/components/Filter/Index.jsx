@@ -1,1 +1,1 @@
-export { defaulte } from './Filter лв';
+export { defaulte } from './Filter';
