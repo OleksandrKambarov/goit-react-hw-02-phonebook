@@ -47,7 +47,7 @@ class Form extends Component {
             type="tel"
             name="number"
             value={number}
-            placeholder="Enter number +X (YYY) XXX XX XX"
+            placeholder="Enter number +XX (YYY) XXX XX XX"
             pattern="(\+?( |-|\.)?\d{1,2}( |-|\.)?)?(\(?\d{3}\)?|\d{3})( |-|\.)?(\d{3}( |-|\.)?\d{4})"
             title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
             required
