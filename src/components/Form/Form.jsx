@@ -16,6 +16,7 @@ class Form extends Component {
     this.props.onSubmit(this.state);
     this.resetForm();
   };
+
   resetForm = () => {
     this.setState({ name: '', number: '' });
   };
@@ -32,7 +33,7 @@ class Form extends Component {
             name="name"
             value={name}
             placeholder="Enter name"
-            // pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
+            pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
             title="Імя може складатись тільки з букв, апострофа, тире і пробілів. Наприклад: Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan і т. д."
             required
             onChange={this.handleChange}
@@ -45,7 +46,7 @@ class Form extends Component {
             name="number"
             value={number}
             placeholder="Enter number"
-            // pattern="(\+?( |-|\.)?\d{1,2}( |-|\.)?)?(\(?\d{3}\)?|\d{3})( |-|\.)?(\d{3}( |-|\.)?\d{4})"
+            pattern="(\+?( |-|\.)?\d{1,2}( |-|\.)?)?(\(?\d{3}\)?|\d{3})( |-|\.)?(\d{3}( |-|\.)?\d{4})"
             title="Номер телефона повинен складатись з цифр 11-12 може містити пробіли, тире, пузаті дужки і може починатися з +"
             required
             onChange={this.handleChange}
