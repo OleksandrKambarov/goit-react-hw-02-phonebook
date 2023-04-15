@@ -20,5 +20,6 @@
 .contactList__button {
   cursor: pointer;
   border: none;
+  background-color: rgb(242, 106, 106);
   border-radius: 50%;
 }
