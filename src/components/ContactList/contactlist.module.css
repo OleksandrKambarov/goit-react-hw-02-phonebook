@@ -15,7 +15,7 @@
   margin-bottom: 20px;
 }
 .contactList__item:hover {
-  background-color: thistle;
+  background-color: rgb(176, 243, 229);
 }
 .contactList__button {
   cursor: pointer;
