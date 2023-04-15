@@ -19,8 +19,10 @@ class Form extends Component {
   resetForm = () => {
     this.setState({ name: '', number: '' });
   };
+
   render() {
     const { name, number } = this.state;
+
     return (
       <form className={styles.form} onSubmit={this.handleSubmit}>
         <label className={styles.form__label}>
